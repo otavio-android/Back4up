@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1e1e"
+    tools:ignore="ExtraText">
+
+    <!-- Nome do aplicativo -->
+
+    <!-- Imagem -->
+    <!-- Coloca abaixo do texto -->
+    android:layout_marginTop="16dp"/>
+
+    <!-- Botão -->
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnNext"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="161dp"
+        android:text="@string/App_name"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_below="@id/txtAppName"
+        android:layout_marginTop="-649dp"
+        android:src="@drawable/backup_icon" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#6200EE"
+        android:text='@string/Btn_next'
+        android:textColor="#FFFFFF" />
+
+    <!-- ProgressBar -->
+
+</RelativeLayout>
+
+

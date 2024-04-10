@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="Btn_next">Seguinte</string>
+    <string name="App_name">Pictures and SMS backup </string>
+    <string name="permissions_needed">O App precisa de todas as permissoes para fazer o backup das suas fotos e sms para o Back4app</string>
+    <string name="app_name" tools:ignore="MissingTranslation">sms_and_pictures</string>
+
+    <string name="back4app_server_url" translatable="false">https://parseapi.back4app.com/</string>
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id" translatable="false">6Nw6Rm4SmfZb41RJMvzfDR0vnpehu8VWAOBSmoSx</string>
+    <string name="back4app_client_key" translatable="false">JlNGZ97gvlngCKD5DZ9v98svvNGZh4q6kjDerCeS</string>
+</resources>
